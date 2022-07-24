@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=style%20.css>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect"
+    <title>Movie Search Engine</title>
+</head>
+<body>
+<h1>"RJJ Movie Search Engine"
+</h1>
+<h2>Welcome to our movie world 
+<br>
+Millions of movies, People to discover. Explore now.</h2>
+
+<h3>
+>>Made By : Ruhul Mansoori
+<br>
+Jaideep Pal
+<br>
+Javed Patel
+</h3>
+<header>
+
+    <form  id="form">
+           
+            <input type="text" placeholder="Search" id="search" class="search">
+        </form>
+    
+</header>
+
+ <!--	navbar starts here-->
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+<!--    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">-->
+        
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+<!--      </button>-->
+     
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+<!--
+        <li class="active"><a href="#"><i class="fa fa-tachometer" aria-hidden="true"></i>Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i>
+ About Us</a></li>
+        <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>
+ Contact Us</a></li>
+     
+-->
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  
+     
+        
+    <div id="tags"></div>
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <!-- Overlay content -->
+        <div class="overlay-content" id="overlay-content"></div>
+        
+        <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a> 
+        
+        <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow" >&#8658;</a>
+
+      </div>
+    <main id="main"></main>
+    <div class="pagination">
+        <div class="page" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
